@@ -64,13 +64,13 @@
 		<div class="container">
 
 			<div id="template-container" class="row">
-				 
-				<div ng-repeat="template in data track by $index | filter: search" class="template col-sm-4 col-md-3">
+
+				<div 
+					ng-repeat="template in data | filter: search" 
+					class="template col-sm-4 col-md-3">
 
 					<div class="thumbnail">
 						
-						<small class="template-number">#{{ $index + 1 }}</small>
-					
 						<img class="template-image" ng-src="{{ template.image }}">
 					  
 					 	<hr>
