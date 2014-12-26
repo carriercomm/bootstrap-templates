@@ -49,6 +49,9 @@ body {
 a {
 	cursor: pointer;
 }
+.btn:hover, .btn:focus, .btn.focus {
+	color: purple;
+}
 .thumbnail {
 	border-color: transparent;
 }
