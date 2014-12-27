@@ -67,6 +67,8 @@ a {
 	margin-bottom: 40px;
 	padding: 10px;
 	height: 450px;
+	border-top: 3px solid #4F8EF7;
+	border-bottom: 3px solid #4F8EF7;
 }
 .template .lead {
 	font-size: 17px;
