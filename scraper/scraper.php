@@ -266,7 +266,7 @@ class Scraper {
 		 $templates[] = [
                         'source' => 'Manish',
                         'source_link' => 'http://www.reviewzap.com/blog/',
-                        'image' => 'http://www.reviewzap.com/blog/wp-content/uploads/2014/11/CityLanding.png',
+                        'image' => '/screenshots/city-landing.png',
                         'name' => 'City Landing Page Template',
                         'link' => 'http://www.reviewzap.com/blog/city-landing-template.html',
                         'demo_link' => 'http://demo.reviewzap.com/citylanding/',
